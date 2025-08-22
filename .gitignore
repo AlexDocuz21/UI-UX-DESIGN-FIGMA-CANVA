@@ -1,0 +1,34 @@
+# Node.js dependencies
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Environment files (secrets)
+.env
+.env.*
+
+# Database files (local only, don’t upload to GitHub)
+*.db
+*.sqlite
+*.sqlite3
+*.sqlite-journal
+database/*.db
+sessions/
+
+# Logs
+logs/
+*.log
+
+# IDE/editor configs
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Build/compiled files
+dist/
+build/
+
+# Other temporary files
+package-lock.json
